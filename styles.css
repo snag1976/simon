@@ -1,0 +1,63 @@
+/* font-family: 'Iceland', cursive; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: ivory;
+}
+
+#level-title {
+  margin-top: 70px;
+  font-family: "Iceland", cursive;
+  font-size: 5rem;
+  color: #3f3f44;
+  text-shadow: 4px 0 4px grey;
+}
+
+.container {
+  width: 80%;
+  margin: 50px auto 40px auto;
+}
+
+button {
+  margin: 10px;
+  width: 160px;
+  height: 160px;
+  border-radius: 15%;
+  border: 20px solid #3f3f44;
+  box-shadow: 5px 0 5px 0 grey;
+}
+
+.green {
+  background-color: #ccffcc;
+}
+
+.red {
+  background-color: #ff6666;
+}
+
+.yellow {
+  background-color: #ffff99;
+}
+
+.blue {
+  background-color: #66b2ff;
+}
+
+.pressed {
+  background-color: grey;
+  box-shadow: 20px 20px 20px black;
+}
+
+.game-over {
+  background-color: red;
+}
+
+footer,
+a {
+  text-decoration: none;
+  color: grey;
+  font-size: 0.8rem;
+
+}
